@@ -1,0 +1,137 @@
+{
+  "export": [
+    {
+      "_basePath": "./EPI/", 
+      "_code": "EPI", 
+      "_name": "Immunisation", 
+      "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "JVenB84tY1X",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "T6DZORCrELb",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          },
+          {
+            "id": "gum1e8w6CmI",
+            "metadata": "NONE",
+            "data": "EDIT"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      }, 
+      "_type": "completeAggregate", 
+      "_url": [
+        "https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
+      ], 
+      "_version": "0.9.1",
+      "customObjects": [
+        {
+          "objectIds": ["IrI8kXAF1F4", "aBpJPej3lyE", "iKxybad85rv"], 
+          "objectType": "dataElements"
+        }
+      ],
+      "dashboardIds": [
+        "jEZlIePnBUV", 
+        "GLBzGIEwP7g"
+      ], 
+      "dataElementGroupIds": [
+        "GynKupv5MlH", 
+        "LR0hF4laoP0", 
+        "N0MAZbHXM7o", 
+        "EGhHUHR2YcW", 
+        "wLwKx08aKP9", 
+        "q9suW77psE2",
+        "gDwHOp9bAdJ"
+      ], 
+      "dataSetIds": [
+        "jqSaKxtj8IA"
+      ], 
+      "exportDataSetIds": [], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "jWbf0RIUhji", 
+        "Us7U5nyds0r", 
+        "W7E4YoQngAv", 
+        "IratxVbStzY", 
+        "zcQRGoQMQeC"
+      ], 
+      "validationRuleGroupIds": [
+        "oY3uQUIIdsb"
+      ]
+    }, 
+    {
+      "_basePath": "./EPI/", 
+      "_code": "EPI", 
+      "_name": "Immunisation dashboard", 
+      "_prefix": "[CONFIG]", 
+      "_ownership": {
+        "modeOwner": "OVERWRITE",
+        "modeLastUpdated": "REMOVE",
+        "ownerId": "vUeLeQMSwhN"
+      },
+      "_sharing": {
+        "groupMode": "FILTER",
+        "groups": [
+          {
+              "id": "JVenB84tY1X",
+              "metadata": "VIEW",
+              "data": "VIEW"
+          },
+          {
+            "id": "T6DZORCrELb",
+            "metadata": "EDIT",
+            "data": "VIEW"
+          }
+        ],
+        "groupExport": true,
+        "userMode": "REMOVE",
+        "users": [],
+        "userExport": false,
+        "publicAccess": {
+          "metadata": "VIEW",
+          "data": "VIEW"
+        }
+      },
+      "_type": "dashboardAggregate", 
+      "_url": [
+		"https://who.dhis2.org/ref_base", 
+        "https://who.dhis2.org/ref_plus1", 
+        "https://who.dhis2.org/ref_plus2"
+      ], 
+      "_version": "0.9.1", 
+      "dashboardIds": [
+        "jEZlIePnBUV", 
+        "GLBzGIEwP7g"
+      ], 
+      "exportIndicatorGroupsIds": [], 
+      "indicatorGroupIds": [
+        "jWbf0RIUhji", 
+        "Us7U5nyds0r", 
+        "W7E4YoQngAv", 
+        "IratxVbStzY", 
+        "zcQRGoQMQeC"
+      ]
+    }
+  ]
+}
