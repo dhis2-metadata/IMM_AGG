@@ -1,8 +1,10 @@
-# Immunization Aggregate System Design { #immunization-aggregate-design }
+# Immunization HMIS Module Design { #immunization-aggregate-design }
 
 ## Introduction
 
-This document describes the system design for the Immunisation configuration package for aggregate reporting, focusing on how the data collection part of the configuration has been designed in DHIS2 (i.e. data sets and data elements).
+This document describes the design of an immunisation module in DHIS2 optimized for integration with a national HMIS. The module is most widely used by countries that have integrated their Expanded Immunization Programme (EPI) reporting into the HMIS. The module includes standard indicators and dashboards to support core immunization program analyses recommended by the WHO's [Guidance on the Analysis & Use of Health Facility Data for Immunization Program Managers](https://www.who.int/publications/m/item/analysis-and-use-of-health-facility-data-guidance-for-immunization-programme-managers). The module contains aggregate monthly data sets which can be used flexibily depending on system maturity:
+* For routine direct reporting into DHIS2 where facility data remain paper-based (data entry can be done at facility or district levels); or
+* Populated by aggregating individual-level electronic data from DHIS2 tracker or another system into the pre-defined aggregate dimensions needed to support the data analysis framework.
 
 ## Overview
 
