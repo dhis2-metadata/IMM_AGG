@@ -1,4 +1,4 @@
-# Immunization HMIS Module Design { #imm-epiagg-design }
+# Immunization HMIS Module Design
 
 ## Introduction
 
