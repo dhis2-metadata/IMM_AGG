@@ -1,4 +1,4 @@
-# Release note
+# Release Note
 
 A new version (1.0.0) of the immunization package has been released with new visualizations and improvements. These are summarized below.
 
