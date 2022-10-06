@@ -1,4 +1,4 @@
-# Expanded Programme on Immunization (EPI) - System Design Document { #imm-epiagg-design }
+# Expanded Programme on Immunization (EPI) - System Design Document { #imm-agg-design }
 
 ## Background and Purpose
 
