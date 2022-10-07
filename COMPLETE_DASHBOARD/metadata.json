@@ -5,7 +5,7 @@
         {
             "allowedFilters": [],
             "attributeValues": [],
-            "code": "IMM_EPIAGG",
+            "code": "IMM_AGG",
             "dashboardItems": [
                 {
                     "attributeValues": [],
@@ -1372,7 +1372,7 @@
         {
             "allowedFilters": [],
             "attributeValues": [],
-            "code": "IMM_EPIAGG_STOCK",
+            "code": "IMM_AGG_STOCK",
             "dashboardItems": [
                 {
                     "attributeValues": [],
@@ -3052,7 +3052,7 @@
     "indicatorGroups": [
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG",
+            "code": "IMM_AGG",
             "externalAccess": false,
             "favorite": false,
             "id": "jWbf0RIUhji",
@@ -3195,7 +3195,7 @@
         },
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_CVG",
+            "code": "IMM_AGG_CVG",
             "externalAccess": false,
             "favorite": false,
             "id": "Us7U5nyds0r",
@@ -3251,7 +3251,7 @@
         },
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_DR",
+            "code": "IMM_AGG_DR",
             "externalAccess": false,
             "favorite": false,
             "id": "W7E4YoQngAv",
@@ -3325,7 +3325,7 @@
         },
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_STK",
+            "code": "IMM_AGG_STK",
             "externalAccess": false,
             "favorite": false,
             "id": "IratxVbStzY",
@@ -3346,10 +3346,10 @@
                     "id": "SAj4RFJwA9T"
                 },
                 {
-                    "id": "d0Ru4e7jQFC"
+                    "id": "PAewufUd8y1"
                 },
                 {
-                    "id": "PAewufUd8y1"
+                    "id": "d0Ru4e7jQFC"
                 },
                 {
                     "id": "uCirssmEf8d"
@@ -3388,10 +3388,10 @@
                     "id": "sNqQPvRROBm"
                 },
                 {
-                    "id": "f6fpDrm9wNs"
+                    "id": "r83OEpG195S"
                 },
                 {
-                    "id": "r83OEpG195S"
+                    "id": "f6fpDrm9wNs"
                 },
                 {
                     "id": "IDEEazwSA8h"
@@ -3415,10 +3415,10 @@
                     "id": "oNL11Suz5ip"
                 },
                 {
-                    "id": "aaxCMHHLcry"
+                    "id": "iO3ci85klhs"
                 },
                 {
-                    "id": "iO3ci85klhs"
+                    "id": "aaxCMHHLcry"
                 },
                 {
                     "id": "XfS8TfmgnHX"
@@ -3508,10 +3508,10 @@
                     "id": "GlSVlBnFrX9"
                 },
                 {
-                    "id": "xss0jcVaZrY"
+                    "id": "vTzaviQIqCG"
                 },
                 {
-                    "id": "vTzaviQIqCG"
+                    "id": "xss0jcVaZrY"
                 },
                 {
                     "id": "tWxEH9BsU9L"
@@ -3612,7 +3612,7 @@
         },
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_WASTAGE_RATE",
+            "code": "IMM_AGG_WASTAGE_RATE",
             "externalAccess": false,
             "favorite": false,
             "id": "zcQRGoQMQeC",
@@ -5095,7 +5095,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - DPT-HepB-HIB stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -5277,7 +5284,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - IPV stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -5886,7 +5900,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - MR stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -7334,7 +7355,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - PCV stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -8349,7 +8377,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - Safety boxes stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -9120,7 +9155,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - TT stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -9218,7 +9260,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - Vaccination cards stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -9358,7 +9407,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - Yellow fever stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -10233,7 +10289,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - ADS 0.5 ml stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -10901,7 +10964,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - BCG stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -13166,7 +13236,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - OPV stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -13721,7 +13798,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - Rota stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -14512,7 +14596,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - Sdilution 2ml stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -14846,7 +14937,14 @@
             "indicatorType": {
                 "id": "hmSnCXmLYwt"
             },
-            "legendSets": [],
+            "legendSet": {
+                "id": "pxeFezcPnQl"
+            },
+            "legendSets": [
+                {
+                    "id": "pxeFezcPnQl"
+                }
+            ],
             "name": "[CONFIG] EPI - Sdilution 5ml stock discrepancy rate (%)",
             "numerator": -1,
             "numeratorDescription": "Stock on hand - Closing balance",
@@ -19093,6 +19191,7 @@
         },
         {
             "attributeValues": [],
+            "code": "STOCK DISCREPANCY",
             "externalAccess": false,
             "favorite": false,
             "id": "pxeFezcPnQl",
@@ -25966,18 +26065,18 @@
     "package": {
         "DHIS2Build": "8c7e7aa",
         "DHIS2Version": "2.38.1.1",
-        "code": "IMM_EPIAGG",
-        "description": "Immunization (EPI) HMIS Dashboard",
-        "lastUpdated": "20221005T114750",
+        "code": "IMM_AGG",
+        "description": "Expanded Programme on Immunization (EPI) Aggregate dashboard package",
+        "lastUpdated": "20221006T104519",
         "locale": "en",
-        "name": "IMM_EPIAGG_DSH_DHIS2.38.1.1-en",
+        "name": "IMM_AGG_DSH_DHIS2.38.1.1-en",
         "type": "DSH",
         "version": ""
     },
     "userGroups": [
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_ACCESS",
+            "code": "IMM_AGG_ACCESS",
             "externalAccess": false,
             "favorite": false,
             "id": "qXYgbiiiHB7",
@@ -26035,7 +26134,7 @@
         },
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_ADMIN",
+            "code": "IMM_AGG_ADMIN",
             "externalAccess": false,
             "favorite": false,
             "id": "HdgiwE5bLY4",
@@ -26073,7 +26172,7 @@
         },
         {
             "attributeValues": [],
-            "code": "IMM_EPIAGG_CAPTURE",
+            "code": "IMM_AGG_CAPTURE",
             "externalAccess": false,
             "favorite": false,
             "id": "E5PRTrhyAqr",
