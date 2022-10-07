@@ -26314,7 +26314,7 @@
         "DHIS2Build": "b6d3754",
         "DHIS2Version": "2.36.12",
         "code": "IMM_AGG",
-        "description": "Expanded Programme on Immunization (EPI)  Aggregate dashboard package",
+        "description": "Expanded Programme on Immunization (EPI) Aggregate dashboard package",
         "lastUpdated": "20221006T104519",
         "locale": "en",
         "name": "IMM_AGG_DSH_DHIS2.36.12-en",
