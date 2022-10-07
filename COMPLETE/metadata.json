@@ -51880,7 +51880,7 @@
         "DHIS2Build": "23c23c5",
         "DHIS2Version": "2.37.7.1",
         "code": "IMM_AGG",
-        "description": "Expanded Programme on Immunization (EPI)  Aggregate package",
+        "description": "Expanded Programme on Immunization (EPI) Aggregate package",
         "lastUpdated": "20221006T231541",
         "locale": "en",
         "name": "IMM_AGG_AGG_DHIS2.37.7.1-en",
