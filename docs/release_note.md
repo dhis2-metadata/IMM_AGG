@@ -1,10 +1,12 @@
 # Release Note
 
+## 1.0.0
+
 A new version (1.0.0) of the immunization package has been released with new visualizations and improvements. These are summarized below.
 
-## New Content
+### New Content
 
-### Immunization Analysis app visualizations
+#### Immunization Analysis app visualizations
 
 Due to the continuous improvement process of the DHIS2 core platform and applications, several visualizations previously done with the [Immunization Analysis app](https://docs.dhis2.org/en/topics/metadata/immunization/immunization-analysis-app/app-version-103/user-manual.html) are now possible to be reproduced with the core “Data visualizer” app.
 Several visualizations have been included in the “Immunization” global dashboard:
@@ -15,12 +17,12 @@ Several visualizations have been included in the “Immunization” global dashb
 - Coverage and dropout rate categorization - last 12 months
 - Categorization of immunization performance by district - last 12 months
 
-### Indicators and legend
+#### Indicators and legend
 
 The visualizations from the “Immunization Analysis app” include legends and interpretations to support the analysis and interpretation of the results.
 
-## Fixes & improvements
+### Fixes & improvements
 
-### Dashboard remodelling
+#### Dashboard remodelling
 
 All the visualizations previously present on the “Immunization maps” dashboard have been included on the “Immunization” general dashboard. The “Immunization maps” dashboard has therefore been removed.
