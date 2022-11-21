@@ -74,12 +74,21 @@ The info for cold chain has been designed as individual data elements without an
 
 ## Analytics and Indicators
 
-The table below lists only the indicators containing notes of interest for the implementation of the package.
+Be it for lack of reliable data or for mistakes in calculations, population data and its use in denominators often sets a difficult task.
 
-| Indicator                 | Comment |
-|---------------------------|------------|
-| Monthly target population | To be able to monitor the antigen administered VS the target population through the time (months of a year) cumulatively the target population has been divided by 12 (months) as the target population was entered annually. <br> The indicator should be adjusted according to the periodicity of the analysis (quarterly/yearly/etc.) and the periodicity with which the target population is reported |
-| Immunization performance  | The score assigned to the differents OUs is based on the combination of coverage and dropout rate of the antigens through the use of a logic statement in the formula (possible from 2.36 version)    |
+Up until any DHIS2 version before 2.35.12 the targets and coverages were simply based on the antigen administered VS the target population through the time (months of a year) cumulatively the target population has been divided by 12 (months) as the target population was entered annually. The indicators shuld have beeen adjusted according to the periodicity of the analysis (quarterly/yearly/etc.) and the periodicity with which the target population is reported; while the coverage would have simply been based on the annualization of the indicator.
+The use of [cumulative over-time aggregate indicators](https://docs.dhis2.org/en/use/user-guides/dhis-core-version-235/configuring-the-system/metadata.html#manage_indicator) is recommended to ensure accurate calculations of coverage. This is possible using the **periodOffset function** in indicators in versions above 2.35.12. As a result, coverage indicators use the sum of the last 12 months as a numerator instead of annualizing the indicator. This is a more accurate way of calculating coverage indicators than annualizing them.
+
+Here below, an example of the type of indicators that are now available to better calculate the coverage.
+
+| | |
+|-----------|-----------|
+| Indicator | **EPI - BCG coverage (%) - period offset** |
+| UID | `lnC0fWd3sD4` |
+| Numerator | **BCG doses < 1 year this month plus last 11 months** <br> _EPI - BCG doses given <1 year + EPI - BCG doses given <1 year.periodOffset(-1) + EPI - BCG doses given <1 year.periodOffset(-2) + EPI - BCG doses given <1 year.periodOffset(-3) + EPI - BCG doses given <1 year.periodOffset(-4) + EPI - BCG doses given <1 year.periodOffset(-5) + EPI - BCG doses given <1 year.periodOffset(-6) + EPI - BCG doses given <1 year.periodOffset(-7) + EPI - BCG doses given <1 year.periodOffset(-8) + EPI - BCG doses given <1 year.periodOffset(-9) + EPI - BCG doses given <1 year.periodOffset(-10) + EPI - BCG doses given <1 year.periodOffset(-11)_ |
+| Denominator | **Live birth** <br> _GEN - Population live births_ |
+
+On the front of **immunization performance**, the package now contains a score assigned to the differtent OUs. The score is based on the combination of coverage and dropout rate of the antigens through the use of a logic statement in the formula (possible from 2.36 version).
 
 ## Validation rules
 
