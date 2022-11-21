@@ -4,7 +4,7 @@
 
 - [Version 1.0.0](#imm-agg-design-100)
 - [Version 0.9.2](#imm-agg-design-092)
-- [Stock Design](#imm-agg-stk-design)
+- [EPI Logistics Design](#imm-agg-stk-design)
 
 ## Installation
 
