@@ -1,4 +1,4 @@
-# Immunization (EPI) HMIS Installation Guide { #imm-epiagg-installation }
+# Immunization (EPI) HMIS Installation Guide { #imm-agg-installation }
 
 This document includes an installation guide for the Immunization (EPI) HMIS package.
 
