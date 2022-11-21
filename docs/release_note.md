@@ -1,4 +1,4 @@
-# Release Note
+# Release Note { #imm-agg-release-note }
 
 ## 1.0.0
 
