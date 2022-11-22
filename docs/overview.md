@@ -1,5 +1,9 @@
 # Expanded Programme on Immunization (EPI) Aggregate
 
+## Release Note
+
+- [Release Note](#imm-agg-release-note)
+
 ## Design
 
 - [Version 1.0.0](#imm-agg-design-100)
@@ -9,10 +13,6 @@
 ## Installation
 
 - [Installation Guide](#imm-agg-installation)
-
-## Release Note
-
-- [Release Note](#imm-agg-release-note)
 
 ## Metadata Reference
 
