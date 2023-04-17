@@ -6,7 +6,7 @@
 
 ## Design
 
-- [Version 1.0.0](#imm-agg-design-100)
+- [Version 1.0.0](#imm-agg-design)
 - [Version 0.9.2](#imm-agg-design-092)
 - [EPI Logistics Design](#imm-agg-stk-design)
 
