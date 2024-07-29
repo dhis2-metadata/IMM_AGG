@@ -15,7 +15,7 @@
 
 ## New Antigens Inclusion
 
-- [Malaria](#integrating-malaria-vaccination-data-into-dhis2)
+- [Malaria Vaccine](#integrating-malaria-vaccination-data-into-dhis2)
 
 ## Metadata Reference
 
