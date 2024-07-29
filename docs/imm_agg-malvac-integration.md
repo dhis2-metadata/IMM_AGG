@@ -18,26 +18,32 @@ To effectively monitor the impact of various health activities and vaccination e
 When integrating new components into existing modules or adding new modules to monitor emerging health program additions, it is essential to consider several key factors. These considerations ensure seamless integration, maintain data integrity, and enhance the overall effectiveness of the health information system. The points below outline critical aspects to keep in mind during this process, helping to facilitate a smooth transition and robust monitoring of new health initiatives.
 
 **Instance Development**
+
 - Aggregate monthly reports: Set up a new instance or update an existing one in DHIS2 to include malaria vaccination data. This involves configuring the backend systems to handle new data inputs and ensuring compatibility with existing data structures.
 - Tracker data: Similar to the monthly report instance, set up a dedicated tracker instance within DHIS2 or update the existing instance hosting the EIR to support the integration of the new metadata and clients. This involves configuring the system to track individual vaccination records and manage follow-ups.
 
 **Creation of Data Elements**
+
 - Aggregate monthly reports: Define and create specific data elements that will capture all necessary information about the malaria vaccine. This includes details like vaccine type, doses administered, and age groups targeted.
 - Tracker data: Define and create detailed data elements for tracking purposes. This includes fields for individual identifiers, vaccination dates and calendars (especially if alignment with the existing calendars is needed), dose numbers, follow-up schedules, and eventual reminders.
 
 **Form Update or Creation**
+
 Tailor the forms to meet the specific needs of the vaccination program and the existing work and data flows. Customization can involve adding user-friendly features, ensuring the form's layout is intuitive, and making sure it collects all required data efficiently.
 - Aggregate monthly reports: Update existing vaccination forms to include new fields for the malaria vaccine data. If the existing forms are not adaptable, create new forms or sections within the existing forms specifically designed to capture malaria vaccine information accurately.
 - Tracker data: Organize a configuration workshop to develop a new tracking form or adapt the existing data and workflow to accommodate the new metadata. This form will be used by healthcare workers to input detailed information about each vaccination event, ensuring comprehensive data capture
 
 **Form Assignment**
+
 Assign the updated or new forms appropriately within the DHIS2 system. This involves ensuring that the right users and facilities have access to these forms and are trained on how to use them.
 - Tracker data: Appropriately assign the tracking form to relevant healthcare facilities and users - especially important if the implementation is not at a national scale and only involves a certain number of facilities. Ensure that only authorized personnel have access to the tracking data to maintain data integrity and confidentiality.
 
 **Dashboard Creation/Update**
+
 Update existing dashboards to reflect the new malaria vaccination data. If needed, create new dashboards that can provide visual representations of the data, such as coverage rates, geographical distribution, and age-specific vaccination rates. Develop dashboards that provide real-time insights into vaccination progress. These dashboards can display metrics like the number of doses administered, adverse event reports, and overall coverage rates, helping to monitor the vaccination activities efforts and effectiveness.
 
 **Training**
+
 Conduct thorough training sessions for users on the monthly reports or new tracking system, and dashboards. Training should cover how to input data correctly, generate reports, and use dashboards to analyze the data effectively.
 
 ## Country examples
@@ -49,6 +55,7 @@ The following section highlights the experiences of Ghana, Malawi, and Burkina F
 Ghana integrated malaria vaccination into its Expanded Programme on Immunization (EPI) starting in May 2019. The Malaria Vaccine Implementation Programme (MVIP) was launched in seven regions, targeting about 175,000 children annually under one year of age.
 
 #### Integration into EPI
+
 The RTSS vaccine was integrated into the EPI schedule through a phased roadmap:
 
 - 2019: Integrated RTSS vaccine in the aggregate EPI vaccination dataset.
@@ -96,18 +103,22 @@ Burkina Faso recognized the critical need to integrate malaria vaccination into 
 
 #### Overview of Malaria Vaccine Implementation Programme
 
-**Planning and Logistics** <br>
+**Planning and Logistics**
+
 A national launch committee was set up in the health region where the national rollout took place. This committee included sub-committees for logistics, communication, regulations, and monitoring. These sub-committees conducted several meetings to cover all aspects of the vaccine introduction, ensuring thorough planning and preparation.
 
-**Pilot Phase** <br>
+**Pilot Phase**
+
 The vaccination with the RTSS/AS01 vaccine began in February 2024 in selected areas across 27 districts, targeting children aged 5 to 23 months. This pilot phase was crucial for gathering initial data and refining the vaccination process.
 
-**New Vaccination Schedule** <br>
+**New Vaccination Schedule**
+
 The vaccination calendar was revised to include doses of the malaria vaccine and to join the booster dose with other vaccinations to reduce the risk of loss of follow-up. Currently, the schedule is set as 1st dose at 5 months, 2nd at 6 months, 3rd at 7 months, and 4th at 15 months alongside MenA, MR and PCV 3. The mission of the surveillance sub-committee included reviewing data collection tools, monitoring Adverse Events Following Immunization (AEFIs), and developing epidemiological monitoring protocols.
 
 ![Malaria vaccine schedule in the national EPI calendar](resources/images/malvac_007.png)
 
-**Data Management** <br>
+**Data Management**
+
 Workshops were conducted to review and test the vaccination registers, ensuring their accuracy and efficiency. A simplified tool was implemented to collect immunization data weekly in Excel format to meet immediate needs during the first month of rollout. Proper tracking mechanisms were put in place to ensure that all vaccination contacts were recorded, including those not initially registered for RTSS, while preventing data entry from non-participating health districts.
 
 
