@@ -1,28 +1,19 @@
-# Release Note { #imm-agg-release-note }
+# Release Note {#imm-agg-release-note}
 
-## 1.0.0
+## 1.1.0
 
-A new version (1.0.0) of the immunization package has been released with new visualizations and improvements. These are summarized below.
+A new version (1.1.0) of the immunization aggregate package has been released.
 
-### New Content
+Changes are summarized below.
 
-#### Immunization Analysis app visualizations
+### New content
 
-Due to the continuous improvement process of the DHIS2 core platform and applications, several visualizations previously done with the [Immunization Analysis app](https://docs.dhis2.org/en/topics/metadata/immunization/immunization-analysis-app/app-version-103/user-manual.html) are now possible to be reproduced with the core “Data visualizer” app.
-Several visualizations have been included in the “Immunization” global dashboard:
+-   Monthly aggregate reporting is now divided into two separate data sets: Routine Vaccine Delivery and Stock
 
-- EPI - Doses and coverage by antigens - months this year
-- Monitoring chart for antigens administered <1 years old child - Months this year
-- Monitoring chart for antigens administered in newborns - Months this year
-- Coverage and dropout rate categorization - last 12 months
-- Categorization of immunization performance by district - last 12 months
+-   New antigen: Meningitis A (Men A). Included in all data sets, indicators, visualizations, and validation rules.
 
-#### Indicators and legend
-
-The visualizations from the “Immunization Analysis app” include legends and interpretations to support the analysis and interpretation of the results.
+-   New coverage indicators: doses administered over total eligible population, per antigen dose.
 
 ### Fixes & improvements
 
-#### Dashboard remodelling
-
-All the visualizations previously present on the “Immunization maps” dashboard have been included on the “Immunization” general dashboard. The “Immunization maps” dashboard has therefore been removed.
+-   Consistent code prefix (EPI) across relevant metadata objects
