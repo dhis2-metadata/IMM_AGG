@@ -19,7 +19,7 @@ When integrating new components into existing modules or adding new modules to m
 
 **Instance Development**
 
-- Aggregate monthly reports: Set up a new instance or update an existing one in DHIS2 to include malaria vaccination data. This involves configuring the backend systems to handle new data inputs and ensuring compatibility with existing data structures.
+- Aggregate monthly reports: update the existing routine reporting system to include malaria vaccination data. This involves configuring the backend systems to handle new data inputs and ensuring compatibility with existing data structures.
 - Tracker data: Similar to the monthly report instance, set up a dedicated tracker instance within DHIS2 or update the existing instance hosting the EIR to support the integration of the new metadata and clients. This involves configuring the system to track individual vaccination records and manage follow-ups.
 
 **Creation of Data Elements**
