@@ -1,4 +1,4 @@
-# EPI Logistics { #imm-agg-stk-design }
+# EPI Logistics
 
 ## 1. About the WHO HMIS-LMIS Integrated Analysis Package for DHIS2
 
