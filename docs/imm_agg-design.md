@@ -53,25 +53,6 @@ From an analytical point of view, this solution allows to quickly add in the bre
 
 This basic table reports the number of AEFIs by severity. Should the AEFIs require a more detailed reporting form, the DHIS2 global packages also include an [**AEFI tracker**](#aefi-design) that can be used and expanded for the purpose.
 
-### Stock
-
-![Data entry for the stock - the screenshot does not include the full table](resources/images/imm-epiagg-1.0.0-005.png)
-
-![Details of the stock disaggregation](resources/images/imm-epiagg-1.0.0-006.png)
-
-The default configuration of the stock section includes just a handful of vaccines together with some fundamental items normally used in vaccination activities (e.g. safety boxes and vaccination cards). The **list should be improved and expanded locally** to better mirror the real local stock.
-
-A **“flat” structure has been applied** to the stock section (i.e. no disaggregations have been applied, this section consists solely of individual data elements).
-
-This structure is required as the “used stock” column is made up by the calculation: (starting balance + received) - (VVM + frozen + expired + broken + missing + ending balance). Using two separate category options (i.e. opening balance, received, discarded -VVM, frozen, expired, broken, missing-, closing balance) would not be appropriate given that a number of these options do not apply to several of the data elements within this section. It was therefore decided that applying different structures to thematically linked data elements was not the most effective approach.
-While using this type of structure increases the number of data elements significantly, using a category option combination that would add up all of these items would not work within this structure, given that a total does not provide you with any meaningful information when reviewing the “used stock” column.
-
-The stock section was added for the purpose of simplicity at the point of data collection. Should a separate tally sheet be more useful, a [**logistics dataset**](https://docs.dhis2.org/en/topics/metadata/immunization/epi-logistics/lmis-design.html) is also available as a standalone package to be edited locally.
-
-### Cold Chain
-
-The info for cold chain has been designed as individual data elements without any disaggregation.
-
 ## Analytics and Indicators
 
 Be it for lack of reliable data or for mistakes in calculations, population data and its use in denominators often sets a difficult task.
