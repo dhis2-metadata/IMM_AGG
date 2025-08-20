@@ -56,23 +56,6 @@ This section will present the main sections (tables) of the immunisation dataset
 
 * This section has been configured as individual data elements. No disaggregations are required here.
 
-### Stock
-
-![Stock](resources/images/IMM_AGG_image7.png "Stock")
-
-*Note: this is not the full table. Please review the full table in DHIS2.
-
-* A “flat” structure has been applied to the stock section (ie. no disaggregations have been applied, this section consists solely of individual data elements).
-* This type of structure is required as the “used” column = `(starting balance + received) -  (VVM + frozen + expired + broken + missing + ending balance)`
-* Using two separate category options (ie. starting balance, received/VVM, frozen, expired, broken, missing, ending balance) would also not be appropriate given that a number of these options do not apply to several of the data elements within this section. It was therefore decided that applying different structures to thematically linked data elements was not the most effective approach.
-* While using this type of structure increases the number of data elements significantly, using a category option combination that would add up all of these items would not work within this structure, given that a total does not provide you with any meaningful information when reviewing the “used” column.
-
-### Cold Chain
-
-![Cold Chain](resources/images/IMM_AGG_image8.png "Cold Chain")
-
-* This section has been configured as individual data elements. No disaggregations are required here.
-
 ## Validation Rules
 
 ### Vaccinations
@@ -113,18 +96,6 @@ If we started with more stock, then we no longer have this problem and the valid
 ![Validation](resources/images/IMM_AGG_image13.png "Validation")
 
 This same type of logic is applied to all of the vaccinations within both the _Vaccinations - children_ and _Vaccinations - women of childbearing age_ sections.
-
-### Consumables
-
-For consumables (items including safety boxes, ADS, etc.) validation rules are applied directly within the stock section.
-_Consumable waste <= consumption_
-
-We can apply this rule using safety boxes as an example.
-
-1. Consumable waste = `(Safety boxes missing + Safety boxes broken)`
-2. Consumable consumption = `(Safety boxes starting balance + Safety boxes received) - Safety boxes ending balance`
-
-The logic used here is simpler to understand compared to the validation rules used for the vaccinations. These rules ensure that we have not used more of the consumable than is available within the facility.
 
 ## Immunisation Outputs
 
